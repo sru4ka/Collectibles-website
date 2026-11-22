@@ -1,0 +1,14 @@
+# How Render hosts this site, kept with the code. Render reads this file from
+# the branch the site is deployed from and applies any change to it.
+#
+# The site is a static site: Render runs the build command and serves the
+# folder it produces. Listing the root domain also sets up "www", which
+# redirects to it.
+services:
+  - type: web
+    runtime: static
+    name: keepworth
+    buildCommand: node build.mjs
+    staticPublishPath: dist
+    domains:
+      - keepworthapp.com

@@ -5,9 +5,9 @@ export const SITE = {
   // The address the site is served from, with no slash at the end.
   url: 'https://keepworthapp.com',
   // The contact address shown on the support, privacy and terms pages. It has
-  // to be a mailbox that someone reads: set up forwarding for it before launch,
-  // or change it to an address that already works.
-  supportEmail: 'support@keepworthapp.com',
+  // to be a mailbox that someone reads. This is the owner's own address for
+  // now; swap it for one at the site's domain once that mailbox exists.
+  supportEmail: 'dbromberg1@gmail.com',
   // Shown at the top of the privacy policy and the terms. Update it whenever either one changes.
   legalUpdated: 'November 22, 2026',
   year: 2026,

@@ -41,6 +41,8 @@ static/assets/     images, the logo and the heading font, copied as they are
 
 The site is a static site on Render, built with `node build.mjs` and published
 from `dist`. Render rebuilds it every time this branch changes on GitHub.
+These settings, and the site's custom domain, are written down in
+`render.yaml`; Render applies any change made to that file.
 
 To serve it at keepworthapp.com, the domain has to be added to the site in
 Render (Settings, Custom Domains), and two records set in GoDaddy's DNS page.
@@ -57,8 +59,8 @@ removed first, or the domain keeps showing GoDaddy's parking page.
 ## Before launch
 
 - **The contact address.** `supportEmail` in `src/site.mjs` is shown on three
-  pages. It must be a mailbox someone reads. Set up forwarding for it, or
-  change it to an address that already works.
+  pages. It is the owner's own address for now. Swap it for one at the site's
+  domain once that mailbox exists.
 - **The legal pages.** The privacy policy and the terms were written to match
   what the app does, but they have not been reviewed by a lawyer. Have them
   checked, and add the legal name of whoever operates Keepworth if the law

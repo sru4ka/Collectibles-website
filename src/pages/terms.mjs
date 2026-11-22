@@ -39,22 +39,34 @@ const html = `
       </ul>
       <p>We may suspend access for anyone who breaks these terms.</p>
 
-      <h2>5. Your photos and ours</h2>
+      <h2>5. Sharing and the community</h2>
+      <p>Sharing is optional. Nothing you scan or save is visible to anyone else unless you turn sharing on in the app, and you can turn it off again at any time.</p>
       <ul>
-        <li>Your photos remain yours. You give us permission to store and process them in order to provide the service to you, as described in the <a href="/privacy/">privacy policy</a>.</li>
+        <li>If you share your collection, other people using Keepworth can see your handle, what you say you are looking for, and the photos, names, grades and rarity of the items you have saved. They see what your items are worth only if you choose to show that too.</li>
+        <li>You are responsible for what you post: your handle, what you write about what you are looking for, your comments, and the photos in a collection you share.</li>
+        <li><b>We do not tolerate objectionable content or abusive behaviour.</b> Do not post anything abusive, threatening, hateful, sexual, misleading or unlawful, do not post spam or advertising, do not pretend to be someone else, and do not post anyone's personal information.</li>
+        <li>You can report a comment or a collector, block a collector, and delete your own comments and any comment left on your collection, all from inside the app. We review reports and act on them promptly.</li>
+        <li>We may remove content and suspend or close accounts that break these rules, without notice.</li>
+        <li>Be careful when you arrange to buy, sell or trade with someone you met through the app. Keepworth is not a party to any arrangement between collectors and does not check who anyone is.</li>
+      </ul>
+      <p>To tell us about something in the community, report it in the app or write to ${mail}.</p>
+
+      <h2>6. Your photos and ours</h2>
+      <ul>
+        <li>Your photos remain yours. You give us permission to store and process them in order to provide the service to you, as described in the <a href="/privacy/">privacy policy</a>. If you share your collection, you also give us permission to show its photos to other people using the app for as long as you keep sharing it.</li>
         <li>The app, its text and its drawings belong to Keepworth. Photographs from other sources are credited on the <a href="/credits/">photo credits</a> page.</li>
       </ul>
 
-      <h2>6. Changes and availability</h2>
+      <h2>7. Changes and availability</h2>
       <p>We may change, pause or end the app or any part of it, and we may update these terms. If we update them we will change the date at the top of this page. We try to keep Keepworth available, but we cannot promise that it will always work or be free of errors.</p>
 
-      <h2>7. Our responsibility to you</h2>
+      <h2>8. Our responsibility to you</h2>
       <p>Keepworth is provided as it is. To the extent the law allows, we are not responsible for losses that result from relying on an identification or an estimate, including selling an item for less than it is worth or paying more than it is worth. Nothing in these terms limits any rights you have under consumer protection law that cannot be limited.</p>
 
-      <h2>8. App Store and Google Play</h2>
+      <h2>9. App Store and Google Play</h2>
       <p>If you downloaded the app from Apple's App Store, Apple's <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener">Licensed Application End User License Agreement</a> also applies. Apple and Google are not responsible for the app or its content, and are not parties to these terms.</p>
 
-      <h2>9. Contact</h2>
+      <h2>10. Contact</h2>
       <p>Questions about these terms: ${mail}.</p>`;
 
 export default {

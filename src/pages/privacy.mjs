@@ -33,6 +33,17 @@ const html = `
         <li>The answers you give in the app's introduction. They stay on your phone.</li>
       </ul>
 
+      <h3>Things you choose to share with other people</h3>
+      <p>Nothing is shared with other people unless you turn it on in the app. If you do:</p>
+      <ul>
+        <li><b>Your handle and what you are looking for.</b> A name you choose, and a line of text you write. Both can be seen and searched by other people using Keepworth.</li>
+        <li><b>A shared collection.</b> The photos, names, grades and rarity of the items you have saved. What they are worth is shown only if you turn that on as well.</li>
+        <li><b>Rare finds.</b> If you choose to share them, the name of a rare item you scan and your handle can appear on other people's home screens.</li>
+        <li><b>Comments and likes.</b> Comments you write on a collection are shown with your handle to anyone who can see that collection. A like adds to a collection's count.</li>
+        <li><b>Reports and blocks.</b> If you report something we keep the report, including the comment as it read at the time, so that we can act on it. The people you block are not told.</li>
+      </ul>
+      <p>You can stop sharing at any time in the app. Your collection, your finds and your handle then stop being visible to others straight away. You can delete your own comments at any time.</p>
+
       <h2>How we use it</h2>
       <ul>
         <li>To identify your item and estimate what it is worth.</li>

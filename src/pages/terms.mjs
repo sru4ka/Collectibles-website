@@ -43,9 +43,10 @@ const html = `
       <p>Sharing is optional. Nothing you scan or save is visible to anyone else unless you turn sharing on in the app, and you can turn it off again at any time.</p>
       <ul>
         <li>If you share your collection, other people using Keepworth can see your handle, what you say you are looking for, and the photos, names, grades and rarity of the items you have saved. They see what your items are worth only if you choose to show that too.</li>
-        <li>You are responsible for what you post: your handle, what you write about what you are looking for, your comments, and the photos in a collection you share.</li>
+        <li>You are responsible for what you post: your handle, your profile picture and the words on your profile, your replies, and the photos and items in a collection you share.</li>
         <li><b>We do not tolerate objectionable content or abusive behaviour.</b> Do not post anything abusive, threatening, hateful, sexual, misleading or unlawful, do not post spam or advertising, do not pretend to be someone else, and do not post anyone's personal information.</li>
-        <li>You can report a comment or a collector, block a collector, and delete your own comments and any comment left on your collection, all from inside the app. We review reports and act on them promptly.</li>
+        <li>You can report a reply, an item or a collector, block a collector, and delete your own replies and any reply left on your items, all from inside the app. We review reports and act on them promptly. Something reported by several people may be hidden until we have looked at it.</li>
+        <li>Photos and profile pictures are checked automatically, and ones that are not suitable are refused. Posting links or advertising, and sending many replies or likes in a short time, is limited.</li>
         <li>We may remove content and suspend or close accounts that break these rules, without notice.</li>
         <li>Be careful when you arrange to buy, sell or trade with someone you met through the app. Keepworth is not a party to any arrangement between collectors and does not check who anyone is.</li>
       </ul>

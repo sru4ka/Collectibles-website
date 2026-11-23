@@ -36,13 +36,14 @@ const html = `
       <h3>Things you choose to share with other people</h3>
       <p>Nothing is shared with other people unless you turn it on in the app. If you do:</p>
       <ul>
-        <li><b>Your handle and what you are looking for.</b> A name you choose, and a line of text you write. Both can be seen and searched by other people using Keepworth.</li>
-        <li><b>A shared collection.</b> The photos, names, grades and rarity of the items you have saved. What they are worth is shown only if you turn that on as well.</li>
+        <li><b>Your profile.</b> A handle you choose, a few words about yourself, what you are looking for, and a profile picture if you add one. These can be seen and searched by other people using Keepworth. A profile picture you upload is checked by an AI model before anyone else sees it, and is refused if it is not suitable.</li>
+        <li><b>A shared collection.</b> The photos, names, grades and rarity of the items you have saved, including items you add by hand. What they are worth is shown only if you turn that on as well. A photo that our checks judge unsuitable to show other people is never shown to them.</li>
+        <li><b>Followers.</b> If you follow someone, they and people who can see their page can see your handle in their list of followers.</li>
         <li><b>Rare finds.</b> If you choose to share them, the name of a rare item you scan and your handle can appear on other people's home screens.</li>
-        <li><b>Comments and likes.</b> Comments you write on a collection are shown with your handle to anyone who can see that collection. A like adds to a collection's count.</li>
+        <li><b>Replies and likes.</b> Replies you write on an item are shown with your handle to anyone who can see that item. A like adds to an item's count.</li>
         <li><b>Reports and blocks.</b> If you report something we keep the report, including the comment as it read at the time, so that we can act on it. The people you block are not told.</li>
       </ul>
-      <p>You can stop sharing at any time in the app. Your collection, your finds and your handle then stop being visible to others straight away. You can delete your own comments at any time.</p>
+      <p>You can stop sharing at any time in the app, with one switch in Settings. Your profile, collection and finds then stop being visible to others straight away. You can delete your own replies at any time.</p>
 
       <h2>How we use it</h2>
       <ul>
@@ -56,7 +57,7 @@ const html = `
       <h2>Who helps us provide the service</h2>
       <p>We use a small number of companies to run Keepworth. They process your information only to provide their part of the service.</p>
       <ul>
-        <li><b>Anthropic</b> provides the AI model that looks at your photos and identifies the item. Your photos are sent to it for that purpose.</li>
+        <li><b>Anthropic</b> provides the AI model that looks at your photos to identify the item and to check that photos are suitable. Your photos, a profile picture you upload, and any answers you give to the scanner's questions are sent to it for those purposes.</li>
         <li><b>Supabase</b> hosts our database and file storage, where your account, scans and photos are kept.</li>
         <li><b>RevenueCat</b>, together with <b>Apple</b> and <b>Google</b>, handles subscriptions and tells us whether yours is active.</li>
         <li><b>Expo</b> delivers updates to the app.</li>

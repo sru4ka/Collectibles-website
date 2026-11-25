@@ -39,6 +39,12 @@ const html = `
         <li><b>Android:</b> open Google Play, tap your profile picture, then Payments and subscriptions, then Subscriptions.</li>
       </ul>
       <p>Deleting the app does not cancel a subscription.</p>
+      <h3>How do I get my subscription back on a new phone?</h3>
+      <p>Open Settings in the app and choose Restore purchases, signed in to the same App Store account you bought it with. The same works after deleting and reinstalling the app.</p>
+
+      <h3>How many scans does a subscription allow?</h3>
+      <p>Each plan allows a set number of scans in a week or a month, and a free trial a smaller number. The numbers are shown on the subscription screen before you buy, and Settings shows how many you have used. Every scan is answered by an AI model that costs money to run, which is why there is a limit at all.</p>
+
       <h3>How do I get a refund?</h3>
       <p>Refunds are handled by Apple or Google. On iPhone, go to <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a>.</p>
 

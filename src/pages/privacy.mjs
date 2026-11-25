@@ -23,7 +23,8 @@ const html = `
       <h3>Things created automatically</h3>
       <ul>
         <li><b>An anonymous account.</b> The first time you open the app it creates an account identified by a random ID. We do not ask for your name, email address or phone number.</li>
-        <li><b>Subscription status.</b> Whether you have an active subscription. Payments are handled by Apple or Google; we never see your card details.</li>
+        <li><b>Subscription status.</b> Whether you have an active subscription, which plan it is, and how many scans you have used against it. Payments are handled by Apple or Google; we never see your card details.</li>
+        <li><b>A phone ID.</b> A random ID the app makes and keeps on your phone, so that free scans are counted per phone. It says nothing about you and is not used for advertising or to follow you anywhere else.</li>
         <li><b>Technical records.</b> Like most online services, our servers record basic details of each request, such as the time, your IP address and the app version, to keep the service running and to stop abuse.</li>
       </ul>
       <h3>Things we do not collect</h3>
@@ -67,7 +68,7 @@ const html = `
       <p>These companies may process information in Canada, the United States and other countries where they operate. We may also disclose information if the law requires it.</p>
 
       <h2>How long we keep it</h2>
-      <p>We keep your photos, scans and collection for as long as you use Keepworth, so that your history and collection are there when you come back. When you delete your account in the app, or ask us to delete your data, your account and everything linked to it is deleted. Technical records are kept only for a limited time.</p>
+      <p>We keep your photos, scans and collection for as long as you use Keepworth, so that your history and collection are there when you come back. When you delete your account in the app, or ask us to delete your data, your account and everything linked to it is deleted. The one thing kept is the number of free scans used on your phone, against the phone's random ID and nothing else, so that free scans cannot be had twice. Technical records are kept only for a limited time.</p>
 
       <h2>Your choices</h2>
       <ul>

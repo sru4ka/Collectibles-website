@@ -23,10 +23,12 @@ const html = `
 
       <h2>3. Subscriptions</h2>
       <ul>
-        <li>Scanning requires a paid subscription. The price and the billing period are shown before you buy.</li>
+        <li>Keepworth is free to download and comes with a small number of free scans. After those, scanning requires a paid subscription. The price and the billing period are shown before you buy.</li>
+        <li>Each plan allows a set number of scans in a week or a month, and a free trial a smaller number. The numbers are shown on the subscription screen before you buy.</li>
         <li>Payment is charged to your App Store or Google Play account when you confirm the purchase.</li>
         <li><b>A subscription renews automatically</b> for the same period and price unless you cancel at least 24 hours before the current period ends.</li>
-        <li>If a free trial is offered, you are charged when it ends unless you cancel before then.</li>
+        <li>If a free trial is offered, you are charged when it ends unless you cancel at least 24 hours before then.</li>
+        <li>If a lower price is offered for the first period, the subscription renews at the full price shown beside it.</li>
         <li>You can manage or cancel a subscription at any time in your App Store or Google Play account settings. Deleting the app does not cancel it.</li>
         <li>Refunds are handled by Apple or Google under their own policies.</li>
       </ul>

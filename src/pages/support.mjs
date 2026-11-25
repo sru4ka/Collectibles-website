@@ -43,8 +43,8 @@ const html = `
       <p>Refunds are handled by Apple or Google. On iPhone, go to <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a>.</p>
 
       <h2>Your data</h2>
-      <h3>How do I delete my data?</h3>
-      <p>Email ${mail} from the app (Settings, then Contact support) and ask us to delete your account. We will delete it and everything linked to it. See the <a href="/privacy/">privacy policy</a> for what Keepworth collects.</p>`;
+      <h3>How do I delete my account and data?</h3>
+      <p>In the app, open Settings and choose Delete account and data. Your account and everything linked to it is deleted at once. Deleting your account does not cancel a subscription: cancel that in your App Store or Google Play account. You can also email ${mail} and ask us to do it. See the <a href="/privacy/">privacy policy</a> for what is kept and for how long.</p>`;
 
 export default {
   path: '/support/',

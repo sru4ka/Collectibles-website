@@ -33,6 +33,7 @@ const html = `
 
       <h2>4. Fair use</h2>
       <ul>
+        <li>You must be at least 13 years old to use Keepworth.</li>
         <li>Scan only items and photos you have the right to use.</li>
         <li>Do not use the app for anything unlawful, or upload anything unlawful or offensive.</li>
         <li>Do not try to break, overload or copy the service, or reach it by automated means. A daily scan limit applies to prevent misuse.</li>

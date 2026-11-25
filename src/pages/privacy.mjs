@@ -67,11 +67,12 @@ const html = `
       <p>These companies may process information in Canada, the United States and other countries where they operate. We may also disclose information if the law requires it.</p>
 
       <h2>How long we keep it</h2>
-      <p>We keep your photos, scans and collection for as long as you use Keepworth, so that your history and collection are there when you come back. When you ask us to delete your data, we delete your account and everything linked to it. Technical records are kept only for a limited time.</p>
+      <p>We keep your photos, scans and collection for as long as you use Keepworth, so that your history and collection are there when you come back. When you delete your account in the app, or ask us to delete your data, your account and everything linked to it is deleted. Technical records are kept only for a limited time.</p>
 
       <h2>Your choices</h2>
       <ul>
-        <li><b>Delete your data.</b> Email ${mail} and ask. If you write from the app (Settings, then Contact support), the message includes your account ID so we can find your data.</li>
+        <li><b>Delete your account and data.</b> In the app, open Settings and choose Delete account and data. Your account and everything linked to it, your photos included, is deleted at once and cannot be brought back. You can also email ${mail} and ask. If you write from the app (Settings, then Contact support), the message includes your account ID so we can find your data.</li>
+        <li><b>Photos and the AI model.</b> Before your first scan the app asks whether your photos may be sent to the AI model. Nothing is sent until you agree, and you can take your agreement back at any time with the switch in Settings. The app cannot scan without it.</li>
         <li><b>See or correct your data.</b> Email us and we will tell you what we hold.</li>
         <li><b>Camera and photos.</b> You can turn off the app's access in your phone's settings at any time. The app cannot scan without a photo.</li>
         <li><b>Subscriptions.</b> You can manage or cancel a subscription in your App Store or Google Play account.</li>
@@ -79,7 +80,7 @@ const html = `
       <p>Depending on where you live, the law may give you further rights over your information, including the right to complain to your local data protection authority. We will honour those rights wherever they apply.</p>
 
       <h2>Children</h2>
-      <p>Keepworth is not directed to children under 13, and we do not knowingly collect information from them. If you believe a child has used the app, email us and we will delete the data.</p>
+      <p>Keepworth is for people aged 13 and over. It is not directed to children under 13, and we do not knowingly collect information from them. If you believe a child has used the app, email us and we will delete the data.</p>
 
       <h2>Changes to this policy</h2>
       <p>If we change this policy we will update the date at the top of this page. If the change is significant, we will also say so in the app.</p>

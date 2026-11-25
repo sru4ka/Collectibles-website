@@ -33,17 +33,19 @@ const html = `
         <li>The answers you give in the app's introduction. They stay on your phone.</li>
       </ul>
 
-      <h3>Things you choose to share with other people</h3>
-      <p>Nothing is shared with other people unless you turn it on in the app. If you do:</p>
+      <h3>Things other people can see</h3>
+      <p>What other people can see depends on whether you have chosen a handle, and on whether your profile is private or public. Until you choose a handle, nobody can find you and nothing of yours is shown to anyone.</p>
       <ul>
-        <li><b>Your profile.</b> A handle you choose, a few words about yourself, what you are looking for, and a profile picture if you add one. These can be seen and searched by other people using Keepworth. A profile picture you upload is checked by an AI model before anyone else sees it, and is refused if it is not suitable.</li>
-        <li><b>A shared collection.</b> The photos, names, grades and rarity of the items you have saved, including items you add by hand. What they are worth is shown only if you turn that on as well. A photo that our checks judge unsuitable to show other people is never shown to them.</li>
-        <li><b>Followers.</b> If you follow someone, they and people who can see their page can see your handle in their list of followers.</li>
+        <li><b>A private profile.</b> Every profile starts private. Once you have a handle, other people using Keepworth can find you by it, see your handle and your profile picture, and see how many people follow you and how many you follow. They can ask to follow you. Nothing else of yours is shown to anyone unless you accept their request: a follower you accept sees what a public profile shows everyone.</li>
+        <li><b>A public profile.</b> If you turn this on, anyone using Keepworth can see your handle, a few words about yourself, your profile picture, and your collection: the photos, names, grades and rarity of the items you have saved, including items you add by hand, and the albums you choose to show, by name. What your items are worth is shown only if you turn that on as well.</li>
+        <li><b>Your scans in the feed.</b> While your profile is public, items you scan and save can appear in a feed that everyone using Keepworth sees, unless you turn that off. The people who follow you see them either way.</li>
+        <li><b>Photos.</b> A profile picture you upload is checked by an AI model before anyone else sees it, and is refused if it is not suitable. A photo of an item that our checks judge unsuitable to show other people is never shown to them.</li>
+        <li><b>Followers.</b> If you follow someone, or ask to follow them, they can see your handle and picture. People who can see their collection can see your handle in their list of followers.</li>
         <li><b>Rare finds.</b> If you choose to share them, the name of a rare item you scan and your handle can appear on other people's home screens.</li>
         <li><b>Replies and likes.</b> Replies you write on an item are shown with your handle to anyone who can see that item. A like adds to an item's count.</li>
         <li><b>Reports and blocks.</b> If you report something we keep the report, including the comment as it read at the time, so that we can act on it. The people you block are not told.</li>
       </ul>
-      <p>You can stop sharing at any time in the app, with one switch in Settings. Your profile, collection and finds then stop being visible to others straight away. You can delete your own replies at any time.</p>
+      <p>You can make your profile private again at any time, with one switch in Settings. People who already follow you keep seeing your collection until you remove them from your followers, which you can do at any time in the app. To stop being found at all, remove your handle. You can delete your own replies at any time.</p>
 
       <h2>How we use it</h2>
       <ul>

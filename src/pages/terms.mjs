@@ -40,9 +40,9 @@ const html = `
       <p>We may suspend access for anyone who breaks these terms.</p>
 
       <h2>5. Sharing and the community</h2>
-      <p>Sharing is optional. Nothing you scan or save is visible to anyone else unless you turn sharing on in the app, and you can turn it off again at any time.</p>
+      <p>Sharing is optional. Nothing you scan or save is visible to anyone else unless you make your profile public, or accept someone's request to follow you while it is private. You can change either at any time.</p>
       <ul>
-        <li>If you share your collection, other people using Keepworth can see your handle, what you say you are looking for, and the photos, names, grades and rarity of the items you have saved. They see what your items are worth only if you choose to show that too.</li>
+        <li>If you choose a handle, other people using Keepworth can find you by it, see your profile picture and how many people follow you, and ask to follow you. If your profile is public, they can also see the words on your profile, the photos, names, grades and rarity of the items you have saved, and the albums you choose to show. While it is private, only the followers you accept see those. They see what your items are worth only if you choose to show that too.</li>
         <li>You are responsible for what you post: your handle, your profile picture and the words on your profile, your replies, and the photos and items in a collection you share.</li>
         <li><b>We do not tolerate objectionable content or abusive behaviour.</b> Do not post anything abusive, threatening, hateful, sexual, misleading or unlawful, do not post spam or advertising, do not pretend to be someone else, and do not post anyone's personal information.</li>
         <li>You can report a reply, an item or a collector, block a collector, and delete your own replies and any reply left on your items, all from inside the app. We review reports and act on them promptly. Something reported by several people may be hidden until we have looked at it.</li>

@@ -64,6 +64,7 @@ const html = `
         <li><b>Supabase</b> hosts our database and file storage, where your account, scans and photos are kept.</li>
         <li><b>RevenueCat</b>, together with <b>Apple</b> and <b>Google</b>, handles subscriptions and tells us whether yours is active.</li>
         <li><b>Apple</b> and <b>Google</b>, if you choose to sign in with one of them, confirm to us that it is you.</li>
+        <li><b>Resend</b> delivers the emails that carry a code, when you sign in with an email address or choose a new password. It is given your email address for that.</li>
         <li><b>Expo</b> delivers updates to the app.</li>
       </ul>
       <p>These companies may process information in Canada, the United States and other countries where they operate. We may also disclose information if the law requires it.</p>

@@ -22,7 +22,7 @@ const html = `
       </ul>
       <h3>Things created automatically</h3>
       <ul>
-        <li><b>An anonymous account.</b> The first time you open the app it creates an account identified by a random ID. We do not ask for your name, email address or phone number.</li>
+        <li><b>Your account.</b> The first time you open the app it creates an account identified by a random ID. If you sign in with Apple, with Google, or with an email address and a password, we keep the email address that comes with it, so that you can get back to your account from another phone. With Apple you can choose to hide your own address. With Google we also receive the name and picture on your Google account; the app does not use or show them. A password is kept only in a scrambled form that we cannot read. We do not ask for your phone number.</li>
         <li><b>Subscription status.</b> Whether you have an active subscription, which plan it is, and how many scans you have used against it. Payments are handled by Apple or Google; we never see your card details.</li>
         <li><b>A phone ID.</b> A random ID the app makes and keeps on your phone, so that free scans are counted per phone. It says nothing about you and is not used for advertising or to follow you anywhere else.</li>
         <li><b>Technical records.</b> Like most online services, our servers record basic details of each request, such as the time, your IP address and the app version, to keep the service running and to stop abuse.</li>
@@ -63,6 +63,7 @@ const html = `
         <li><b>Anthropic</b> provides the AI model that looks at your photos to identify the item and to check that photos are suitable. Your photos, a profile picture you upload, and any answers you give to the scanner's questions are sent to it for those purposes.</li>
         <li><b>Supabase</b> hosts our database and file storage, where your account, scans and photos are kept.</li>
         <li><b>RevenueCat</b>, together with <b>Apple</b> and <b>Google</b>, handles subscriptions and tells us whether yours is active.</li>
+        <li><b>Apple</b> and <b>Google</b>, if you choose to sign in with one of them, confirm to us that it is you.</li>
         <li><b>Expo</b> delivers updates to the app.</li>
       </ul>
       <p>These companies may process information in Canada, the United States and other countries where they operate. We may also disclose information if the law requires it.</p>

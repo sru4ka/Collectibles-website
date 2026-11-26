@@ -9,7 +9,7 @@ export const SITE = {
   // now; swap it for one at the site's domain once that mailbox exists.
   supportEmail: 'dbromberg1@gmail.com',
   // Shown at the top of the privacy policy and the terms. Update it whenever either one changes.
-  legalUpdated: 'November 25, 2026',
+  legalUpdated: 'November 26, 2026',
   year: 2026,
 };
 

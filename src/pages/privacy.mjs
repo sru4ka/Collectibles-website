@@ -19,6 +19,7 @@ const html = `
         <li><b>Photos you scan.</b> The pictures you take, or choose from your library, of the item you want identified.</li>
         <li><b>Your scans and collection.</b> The results of your scans, and the items you save to your collection.</li>
         <li><b>Your answers and questions.</b> The answers you give to the scanner's questions, and what you type when you ask about an item you have scanned.</li>
+        <li><b>Messages you send us.</b> If you report a problem or send a suggestion from Settings, we keep your message, the app version, and your email address if you choose to give one for a reply.</li>
         <li><b>Your settings.</b> The currency you choose and the country your phone is set to, so that values and links suit where you are.</li>
       </ul>
       <h3>Things created automatically</h3>

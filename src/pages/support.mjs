@@ -39,8 +39,9 @@ const html = `
         <li><b>Android:</b> open Google Play, tap your profile picture, then Payments and subscriptions, then Subscriptions.</li>
       </ul>
       <p>Deleting the app does not cancel a subscription.</p>
-      <h3>How do I get my subscription back on a new phone?</h3>
-      <p>Open Settings in the app and choose Restore purchases, signed in to the same App Store account you bought it with. The same works after deleting and reinstalling the app.</p>
+      <h3>How do I get my collection and my subscription back on a new phone?</h3>
+      <p>If you made an account, sign in on the new phone with the same Apple account, Google account or email address you used before. The app offers this when it asks for an account, and in Settings under Create an account or sign in. With an email address, choose "I already have an account". Your scans, your collection and your subscription come back together. The same works after deleting and reinstalling the app.</p>
+      <p>If you never made an account, open Settings in the app and choose Restore purchases, signed in to the same App Store account you bought it with. That brings back the subscription only. Your scans and your collection stay with the app on the old phone. If you still have it there, make an account on the old phone first (Settings, then Create an account or sign in), then sign in on the new one. If you deleted the app without making an account, the scans and the collection it held cannot be brought back. Once you make an account, what you scan from then on comes back whenever you sign in.</p>
 
       <h3>How many scans does a subscription allow?</h3>
       <p>Each plan allows a set number of scans in a week or a month, and a free trial a smaller number. The numbers are shown on the subscription screen before you buy, and Settings shows how many you have used. Every scan is answered by an AI model that costs money to run, which is why there is a limit at all.</p>

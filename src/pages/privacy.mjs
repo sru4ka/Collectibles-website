@@ -18,13 +18,14 @@ const html = `
       <ul>
         <li><b>Photos you scan.</b> The pictures you take, or choose from your library, of the item you want identified.</li>
         <li><b>Your scans and collection.</b> The results of your scans, and the items you save to your collection.</li>
+        <li><b>Your answers and questions.</b> The answers you give to the scanner's questions, and what you type when you ask about an item you have scanned.</li>
         <li><b>Your settings.</b> The currency you choose and the country your phone is set to, so that values and links suit where you are.</li>
       </ul>
       <h3>Things created automatically</h3>
       <ul>
         <li><b>Your account.</b> The first time you open the app it creates an account identified by a random ID. If you sign in with Apple, with Google, or with an email address and a password, we keep the email address that comes with it, so that you can get back to your account from another phone. With Apple you can choose to hide your own address. With Google we also receive the name and picture on your Google account; the app does not use or show them. A password is kept only in a scrambled form that we cannot read. We do not ask for your phone number.</li>
         <li><b>Subscription status.</b> Whether you have an active subscription, which plan it is, and how many scans you have used against it. Payments are handled by Apple or Google; we never see your card details.</li>
-        <li><b>A phone ID.</b> A random ID the app makes and keeps on your phone, so that free scans are counted per phone. It says nothing about you and is not used for advertising or to follow you anywhere else.</li>
+        <li><b>A phone ID.</b> A random ID the app makes and keeps on your phone, so that scans are counted per phone. It says nothing about you and is not used for advertising or to follow you anywhere else.</li>
         <li><b>Technical records.</b> Like most online services, our servers record basic details of each request, such as the time, your IP address and the app version, to keep the service running and to stop abuse.</li>
       </ul>
       <h3>Things we do not collect</h3>
@@ -37,13 +38,14 @@ const html = `
       <h3>Things other people can see</h3>
       <p>What other people can see depends on whether you have chosen a handle, and on whether your profile is private or public. Until you choose a handle, nobody can find you and nothing of yours is shown to anyone.</p>
       <ul>
-        <li><b>A private profile.</b> Every profile starts private. Once you have a handle, other people using Keepworth can find you by it, see your handle and your profile picture, and see how many people follow you and how many you follow. They can ask to follow you. Nothing else of yours is shown to anyone unless you accept their request: a follower you accept sees what a public profile shows everyone.</li>
+        <li><b>A private profile.</b> Every profile starts private. Once you have a handle, other people using Keepworth can find you by it, see your handle and your profile picture, and see how many people follow you and how many you follow. They can ask to follow you. Nothing else of yours is shown to anyone unless you accept their request, apart from the PRO mark and any rare finds you choose to share, both described below. A follower you accept sees what a public profile shows everyone.</li>
         <li><b>A public profile.</b> If you turn this on, anyone using Keepworth can see your handle, a few words about yourself, your profile picture, and your collection: the photos, names, grades and rarity of the items you have saved, including items you add by hand, and the albums you choose to show, by name. What your items are worth is shown only if you turn that on as well.</li>
+        <li><b>The PRO mark.</b> If you have a subscription and a handle, a PRO mark is shown with your handle and profile picture wherever other people see them, whether your profile is private or public. It tells them that you subscribe, and nothing more about your subscription.</li>
         <li><b>Your scans in the feed.</b> While your profile is public, items you scan and save can appear in a feed that everyone using Keepworth sees, unless you turn that off. The people who follow you see them either way.</li>
-        <li><b>Photos.</b> A profile picture you upload is checked by an AI model before anyone else sees it, and is refused if it is not suitable. A photo of an item that our checks judge unsuitable to show other people is never shown to them.</li>
+        <li><b>Photos and words.</b> A profile picture you upload is checked by an AI model before anyone else sees it, and is refused if it is not suitable. Your handle and the words you write on your profile are checked by an AI model before they are saved, and refused in the same way. A photo of an item that our checks judge unsuitable to show other people is never shown to them.</li>
         <li><b>Followers.</b> If you follow someone, or ask to follow them, they can see your handle and picture. People who can see their collection can see your handle in their list of followers.</li>
-        <li><b>Rare finds.</b> If you choose to share them, the name of a rare item you scan and your handle can appear on other people's home screens.</li>
-        <li><b>Replies and likes.</b> Replies you write on an item are shown with your handle to anyone who can see that item. A like adds to an item's count.</li>
+        <li><b>Rare finds.</b> If you choose to share them, the name of a rare item you scan, your photo of it, your handle and your profile picture can appear on other people's home screens, whether your profile is private or public.</li>
+        <li><b>Replies and likes.</b> Replies you write on an item are shown with your handle to anyone who can see that item. A like adds to the count on an item or a reply. The person it belongs to is told about the like, and sees your handle and picture if you have a handle.</li>
         <li><b>Reports and blocks.</b> If you report something we keep the report, including the comment as it read at the time, so that we can act on it. The people you block are not told.</li>
       </ul>
       <p>You can make your profile private again at any time, with one switch in Settings. People who already follow you keep seeing your collection until you remove them from your followers, which you can do at any time in the app. To stop being found at all, remove your handle. You can delete your own replies at any time.</p>
@@ -51,8 +53,9 @@ const html = `
       <h2>How we use it</h2>
       <ul>
         <li>To identify your item and estimate what it is worth.</li>
+        <li>To answer the questions you ask about an item.</li>
         <li>To keep your scan history and your collection.</li>
-        <li>To check your subscription and apply the daily scan limit.</li>
+        <li>To check your subscription and apply the limits on scans.</li>
         <li>To find and fix problems, and to prevent misuse of the service.</li>
       </ul>
       <p>We do not sell your information, and we do not use it for advertising.</p>
@@ -60,7 +63,7 @@ const html = `
       <h2>Who helps us provide the service</h2>
       <p>We use a small number of companies to run Keepworth. They process your information only to provide their part of the service.</p>
       <ul>
-        <li><b>Anthropic</b> provides the AI model that looks at your photos to identify the item and to check that photos are suitable. Your photos, a profile picture you upload, and any answers you give to the scanner's questions are sent to it for those purposes.</li>
+        <li><b>Anthropic</b> provides the AI model that looks at your photos to identify the item, answers what you ask about an item, and checks that photos and the words on a profile are suitable. Your photos, a profile picture you upload and the answers you give to the scanner's questions are sent to it for those purposes. So is anything you ask about an item, together with your photos of the item and what the scan found. So are your handle and the words on your profile, when you choose or change them.</li>
         <li><b>Supabase</b> hosts our database and file storage, where your account, scans and photos are kept.</li>
         <li><b>RevenueCat</b>, together with <b>Apple</b> and <b>Google</b>, handles subscriptions and tells us whether yours is active.</li>
         <li><b>Apple</b> and <b>Google</b>, if you choose to sign in with one of them, confirm to us that it is you.</li>
@@ -70,12 +73,18 @@ const html = `
       <p>These companies may process information in Canada, the United States and other countries where they operate. We may also disclose information if the law requires it.</p>
 
       <h2>How long we keep it</h2>
-      <p>We keep your photos, scans and collection for as long as you use Keepworth, so that your history and collection are there when you come back. When you delete your account in the app, or ask us to delete your data, your account and everything linked to it is deleted. The one thing kept is the number of free scans used on your phone, against the phone's random ID and nothing else, so that free scans cannot be had twice. Technical records are kept only for a limited time.</p>
+      <p>We keep your photos, scans and collection for as long as you use Keepworth, so that your history and collection are there when you come back. When you delete your account in the app, or ask us to delete your data, your account and everything linked to it is deleted, apart from the things listed below. Technical records are kept only for a limited time.</p>
+      <p>These are not removed when you delete your account in the app:</p>
+      <ul>
+        <li><b>The count of scans used on your phone.</b> We keep the number of free scans used, and the time of each scan counted against a subscription. They are kept against the phone's random ID and nothing else, so that free scans and a plan's scans cannot be had twice.</li>
+        <li><b>The record of a purchase.</b> If you subscribed, RevenueCat holds a record of the purchase against your random account ID. To have it removed, email ${mail} and ask. So that we can find the record, write from the app before you delete your account (Settings, then Contact support), or send the order number shown on your receipt from Apple or Google. Apple and Google keep their own records of what you buy from them, under their own policies.</li>
+        <li><b>Scans made under an earlier account.</b> Deleting your account deletes the account your phone is using at that moment. Until you sign in, your scans are kept under an account that only that copy of the app on your phone can open. If you then sign in to an account you already had, or delete the app and install it again, your phone moves to another account. The scans and photos made before stay on our servers, and the app can no longer reach them. If that earlier account had a handle, other people can still find it and see whatever it was sharing, until it is deleted. To have the earlier account and everything in it deleted, email ${mail} and ask. Writing from the app (Settings, then Contact support) helps us find it.</li>
+      </ul>
 
       <h2>Your choices</h2>
       <ul>
-        <li><b>Delete your account and data.</b> In the app, open Settings and choose Delete account and data. Your account and everything linked to it, your photos included, is deleted at once and cannot be brought back. You can also email ${mail} and ask. If you write from the app (Settings, then Contact support), the message includes your account ID so we can find your data.</li>
-        <li><b>Photos and the AI model.</b> Before your first scan the app asks whether your photos may be sent to the AI model. Nothing is sent until you agree, and you can take your agreement back at any time with the switch in Settings. The app cannot scan without it.</li>
+        <li><b>Delete your account and data.</b> In the app, open Settings and choose Delete account and data. Your account and everything linked to it, your photos included, is deleted at once and cannot be brought back. The few things that are not removed are listed under "How long we keep it" above. You can also email ${mail} and ask. If you write from the app (Settings, then Contact support), the message includes your account ID so we can find your data.</li>
+        <li><b>Photos and the AI model.</b> Before the first time you scan, ask about an item or add a profile picture, the app asks whether your photos may be sent to the AI model. No photo, answer or question is sent to it until you agree, and you can take your agreement back at any time with the switch in Settings. The app cannot scan without it. Your handle and the words on your profile are checked by the AI model whenever you choose or change them, and the switch does not change that.</li>
         <li><b>See or correct your data.</b> Email us and we will tell you what we hold.</li>
         <li><b>Camera and photos.</b> You can turn off the app's access in your phone's settings at any time. The app cannot scan without a photo.</li>
         <li><b>Subscriptions.</b> You can manage or cancel a subscription in your App Store or Google Play account.</li>

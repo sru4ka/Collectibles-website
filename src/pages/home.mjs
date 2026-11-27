@@ -101,7 +101,7 @@ ${FINDS.map(
         <div class="points">
           <div class="point reveal"><h3>No guessing</h3><p>When a photo isn't clear enough to be sure, Keepworth asks for a better one instead of making up a value.</p></div>
           <div class="point reveal"><h3>Estimates, not appraisals</h3><p>Every value is an estimate from past sales. For anything that looks valuable, have a dealer or appraiser see it in person.</p></div>
-          <div class="point reveal"><h3>No ads, no tracking</h3><p>Your photos are used to identify your item and nothing else. See the <a href="/privacy/">privacy policy</a>.</p></div>
+          <div class="point reveal"><h3>No ads, no tracking</h3><p>Your photos are used to identify your item and to answer your questions about it. Other people see them only if you choose to share them. They are never used for advertising. See the <a href="/privacy/">privacy policy</a>.</p></div>
         </div>
       </div>
     </section>`;

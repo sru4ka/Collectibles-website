@@ -23,7 +23,8 @@ const html = `
 
       <h2>3. Subscriptions</h2>
       <ul>
-        <li>Keepworth is free to download and comes with a small number of free scans. After those, scanning requires a paid subscription. The price and the billing period are shown before you buy.</li>
+        <li>Keepworth is free to download and comes with a small number of free scans each calendar month. After those, scanning requires a paid subscription. The price and the billing period are shown before you buy.</li>
+        <li>The first free scans of a month show the full result. Later free scans say what the item is, and its value is shown with a subscription. Questions about an item are part of a subscription.</li>
         <li>Each plan allows a set number of scans in a week or a month, and a free trial a smaller number. The numbers are shown on the subscription screen before you buy.</li>
         <li>Payment is charged to your App Store or Google Play account when you confirm the purchase.</li>
         <li><b>A subscription renews automatically</b> for the same period and price unless you cancel at least 24 hours before the current period ends.</li>
@@ -43,13 +44,14 @@ const html = `
       <p>We may suspend access for anyone who breaks these terms.</p>
 
       <h2>5. Sharing and the community</h2>
-      <p>Sharing is optional. Nothing you scan or save is visible to anyone else unless you make your profile public, or accept someone's request to follow you while it is private. You can change either at any time.</p>
+      <p>Sharing is optional. Nothing you scan or save is visible to anyone else unless you make your profile public, accept someone's request to follow you while it is private, or switch on sharing of your rare finds. You can change any of these at any time.</p>
       <ul>
-        <li>If you choose a handle, other people using Keepworth can find you by it, see your profile picture and how many people follow you, and ask to follow you. If your profile is public, they can also see the words on your profile, the photos, names, grades and rarity of the items you have saved, and the albums you choose to show. While it is private, only the followers you accept see those. They see what your items are worth only if you choose to show that too.</li>
+        <li>If you choose a handle, other people using Keepworth can find you by it, see your profile picture and how many people follow you, and ask to follow you. If you have a subscription, they also see a PRO mark with your handle and picture. If your profile is public, they can also see the words on your profile, the photos, names, grades and rarity of the items you have saved, and the albums you choose to show. While it is private, only the followers you accept see those. They see what your items are worth only if you choose to show that too.</li>
+        <li>If you switch on sharing of your rare finds, the name of a rare item you scan, your photo of it, your handle and your profile picture can be shown to other people using Keepworth, even while your profile is private.</li>
         <li>You are responsible for what you post: your handle, your profile picture and the words on your profile, your replies, and the photos and items in a collection you share.</li>
         <li><b>We do not tolerate objectionable content or abusive behaviour.</b> Do not post anything abusive, threatening, hateful, sexual, misleading or unlawful, do not post spam or advertising, do not pretend to be someone else, and do not post anyone's personal information.</li>
         <li>You can report a reply, an item or a collector, block a collector, and delete your own replies and any reply left on your items, all from inside the app. We review reports and act on them promptly. Something reported by several people may be hidden until we have looked at it.</li>
-        <li>Photos and profile pictures are checked automatically, and ones that are not suitable are refused. Posting links or advertising, and sending many replies or likes in a short time, is limited.</li>
+        <li>Photos, profile pictures, handles and the words on a profile are checked automatically, and ones that are not suitable are refused. Posting links or advertising, and sending many replies or likes in a short time, is limited.</li>
         <li>We may remove content and suspend or close accounts that break these rules, without notice.</li>
         <li>Be careful when you arrange to buy, sell or trade with someone you met through the app. Keepworth is not a party to any arrangement between collectors and does not check who anyone is.</li>
       </ul>
@@ -57,7 +59,7 @@ const html = `
 
       <h2>6. Your photos and ours</h2>
       <ul>
-        <li>Your photos remain yours. You give us permission to store and process them in order to provide the service to you, as described in the <a href="/privacy/">privacy policy</a>. If you share your collection, you also give us permission to show its photos to other people using the app for as long as you keep sharing it.</li>
+        <li>Your photos remain yours. You give us permission to store and process them in order to provide the service to you, as described in the <a href="/privacy/">privacy policy</a>. If you share your collection or your rare finds, you also give us permission to show their photos to other people using the app for as long as you keep sharing them.</li>
         <li>The app, its text and its drawings belong to Keepworth. Photographs from other sources are credited on the <a href="/credits/">photo credits</a> page.</li>
       </ul>
 
